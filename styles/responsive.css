@@ -1,0 +1,224 @@
+@media(max-width:1150px){
+
+    header .column nav a{
+        margin: 0 5px;
+        font-size: 11.2px;
+    }
+    header .column .btn a{
+        width: 120px;
+        height: 42px;
+        font-size: 11.2px;
+    }   
+    .landing .descrip h1{   
+        font-size: 38px;
+    }
+    .landing .descrip h3{   
+        font-size: 25px;
+    }
+    footer .column{
+        width: 80%;
+    }
+}
+@media(max-width:900px){
+    header{
+        width: 80%;
+        height: 70px;
+    }
+    header .column .desktop{
+        display: none;
+    }
+    header .column .btn{   
+        display: none
+    }
+    header .column .mobile{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 10000;
+    }
+
+    header .column .mobile nav{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        background-color: #ffffffea;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 250px;
+        border-radius: 5px;
+        
+    }
+    header .column .mobile nav a{
+        margin: 2% 0;
+    }
+    header .mobile .menu{
+        margin-top: 0;
+        cursor: pointer;
+        display: flex;
+    }
+    .landing .column{
+        width: 100%;
+        min-height: auto;
+        padding: 12% 0;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+    .landing .descrip{
+        text-align: center;
+        height: 100%;
+        width: 90%;
+        padding: 0 0;
+    }
+    .landing .descrip h1{   
+        padding: 0;
+        line-height: normal;
+        font-size: 38px;
+        margin-bottom: 10px;
+    }
+    .landing .descrip h3{   
+        padding: 0;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .landing .descrip .btn a{
+        margin: 0 auto;
+        font-size: 11.2px;
+    }
+    .landing .intro{
+        width: 50vw;
+    }
+}
+@media(max-width:550px){
+    .landing .column{
+        padding: 20% 0;
+    }
+}
+@media(max-width: 410px){
+    header .mobile a img{
+        width: 90%;
+    }
+    .btn a{
+        width: 130px;
+        height: 45px;
+        font-size: 11.2px;
+    }
+}
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .header__menu {
+        display: none;
+    }
+
+    .header__menu-mobile {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+        background-color: #333;
+    }
+
+    .header__menu-mobile li {
+        margin-left: 20px;
+    }
+
+    .header__menu-mobile img {
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+
+    .chats .left__page,
+    .chats .right__page {
+        flex: 0 0 100%;
+    }
+
+    .early__access__btn input[type="text"] {
+        width: calc(100% - 20px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero-img {
+        padding: 40px 10px;
+    }
+
+    .left__page h1 {
+        font-size: 28px;
+    }
+
+    .left__page h5 {
+        font-size: 14px;
+    }
+
+    .header__nav {
+        padding: 20px;
+    }
+
+    .header__menu a {
+        font-size: 14px;
+        margin: 0 10px;
+    }
+
+    .access__button button {
+        padding: 8px 16px;
+    }
+
+    .chats .left__page,
+    .chats .right__page {
+        margin-bottom: 10px;
+    }
+
+    .footer__section h3 {
+        font-size: 16px;
+    }
+
+    .input-container input[type="email"] {
+        padding: 8px;
+        font-size: 14px;
+        margin-right: 10px;
+    }
+
+    .input-container .symbol {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+
+/* test  */
+
+
+@media only screen and (max-width: 991px) {
+    .owl-nav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .box-area {
+        text-align: center;
+    }
+    .owl-nav {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+

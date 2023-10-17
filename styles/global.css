@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;300;500;700;900&display=swap');
+
+:root{
+    --Soft-Blue: #5468E7;
+    --dark-blue: #ffffff;
+    --dark-greyish-blue: #ffffff;
+    --very-vark-blue: #1d1e25;
+    --very-pale-red: #ffefeb;
+    --vary-light-gray: #fafafa;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+    color: var(--dark-blue);
+}
+body{
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    scroll-behavior: smooth;
+
+}
+
+.background-img{
+    background-image: url(../images/hero-img.png);
+}
+.containerr{
+    margin: 0 auto;
+}
+a{
+    color: var(--vary-light-gray);
+}
+.backdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.301);
+    backdrop-filter: blur(3px);
+}
+/*boot*/
+.column{
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.btn a{
+    text-decoration: none;
+    background: rgba(84, 104, 231, 0.50);
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: .3s;
+}
+.btn a:hover{
+    background-color: #8897f9;
+    color: #ffefe4;
+}
+
