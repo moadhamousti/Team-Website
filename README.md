@@ -15,6 +15,9 @@
 
 ☑️ Animation (Navbar & Landing Page).
 
+
+### Screen Shoots 📷 :
+
 <img width="947" alt="----" src="https://github.com/moadhamousti/Team-Website/assets/118165767/ec5b7808-f4cd-4aae-8c28-288e02291beb">
 
 
